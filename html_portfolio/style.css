@@ -1,0 +1,102 @@
+body {
+    background-image: url('images/bg3.jpg');
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 ,h3,h4{
+    text-align: center;
+    color: #111;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    color: #FFFFFF;
+    border: 5px solid #111;
+    padding: 10px;
+}
+
+th {
+    background-color: #1e90ff;
+    color: #000;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background-color: #111;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #007acc;
+}
+
+p , b{
+    color: #111;
+    
+}
+p {
+    color: #ffffff;
+}
+
+hr {
+    height: 2px;
+            background-color: #111 ;
+            border: none;
+}
